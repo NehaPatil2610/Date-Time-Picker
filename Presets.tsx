@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { startOfDayInZone } from '../logic/timeUtils';
-
+import { getPresetRange } from './timeUtils';
 export const Presets = ({ onSelect, timezone }: { onSelect: (start: Date, end: Date) => void, timezone: string }) => {
   const getToday = () => {
     // Today in the target timezone
@@ -47,5 +46,6 @@ export const Presets = ({ onSelect, timezone }: { onSelect: (start: Date, end: D
 
   );
 };
+
 
 
