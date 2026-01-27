@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { getDaysInMonth, startOfDayInZone } from '../logic/timeUtils';
+import { getDaysInMonth, formatTime } from './timeUtils';
 
 interface CalendarGridProps {
     viewDate: Date; // The first day of the month we are viewing (in correct timezone context)
@@ -167,3 +167,4 @@ export const CalendarGrid = ({ viewDate, range, onSelect, timezone }: CalendarGr
         </div>
     );
 };
+
