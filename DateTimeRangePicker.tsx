@@ -3,7 +3,7 @@ import { CalendarGrid } from './CalendarGrid';
 import { usePickerState } from './usePickerState';
 import { Presets } from './Presets';
 import { TimePicker } from './TimePicker';
-import { TIMEZONES, formatTime } from '../logic/timeUtils';
+import { TIMEZONES, formatTime } from './timeUtils'; 
 
 export const DateTimeRangePicker = () => {
     // 1. Lift Timezone state up
@@ -198,3 +198,4 @@ export const DateTimeRangePicker = () => {
 
     );
 };
+
