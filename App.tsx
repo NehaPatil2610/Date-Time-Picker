@@ -1,5 +1,6 @@
-import { DateTimeRangePicker } from './components/DateTimeRangePicker';
-import { ThreeBackground } from './components/ThreeBackground';
+// Changed: Everything is in the root now
+import { DateTimeRangePicker } from './DateTimeRangePicker';
+import { ThreeBackground } from './ThreeBackground';
 
 function App() {
   return (
