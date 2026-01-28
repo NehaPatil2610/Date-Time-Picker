@@ -1,6 +1,6 @@
 import type { Preview } from "@storybook/react";
 // Changed: index.css is in the home folder, not /src/
-import "../index.css";
+import "../src/index.css";
 
 const preview: Preview = {
   parameters: {
